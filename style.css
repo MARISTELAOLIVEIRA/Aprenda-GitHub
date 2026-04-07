@@ -59,6 +59,25 @@ nav a:hover {
     color: #58a6ff;
 }
 
+.profile-avatar {
+    display: flex;
+    align-items: center;
+}
+
+.profile-avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #30363d;
+    transition: border-color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.profile-avatar img:hover {
+    border-color: #58a6ff;
+    transform: scale(1.05);
+}
+
 .hero {
     max-width: 1200px;
     margin: 0 auto;
